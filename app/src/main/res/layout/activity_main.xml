@@ -1,18 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:gravity="center_horizontal"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
+        android:background="@color/white">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="355dp"
+                android:layout_height="266dp"
+                app:srcCompat="@drawable/shield"
+                android:contentDescription="@string/shield_logo_description"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/shield_app_header"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/avengers_image_button_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/maroon"
+                android:text="@string/iron_man" />
+
+            <Button
+                android:id="@+id/avenger_button_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/maroon"
+                android:text="@string/thor" />
+
+            <Button
+                android:id="@+id/avenger_button_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/maroon"
+                android:text="@string/black_widow" />
+
+            <Button
+                android:id="@+id/avenger_button_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/maroon"
+                android:text="@string/hulk" />
+
+            <Button
+                android:id="@+id/avenger_button_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/maroon"
+                android:text="@string/captain_america" />
+
+            <Button
+                android:id="@+id/avenger_button_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/maroon"
+                android:text="@string/captain_america" />
+
+            <Button
+                android:id="@+id/avenger_button_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/maroon"
+                android:text="@string/captain_america" />
+
+            <Button
+                android:id="@+id/avenger_button_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/maroon"
+                android:text="@string/captain_america" />
+
+            <Button
+                android:id="@+id/avenger_button_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/maroon"
+                android:text="@string/captain_america" />
+
+            <Button
+                android:id="@+id/avenger_button_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/maroon"
+                android:text="@string/captain_america" />
+
+            <Button
+                android:id="@+id/avenger_button_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/maroon"
+                android:text="@string/captain_america" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">rye747-lab3</string>
+    <string name="iron_man">Iron Man</string>
+    <string name="thor">Thor</string>
+    <string name="captain_america">Captain America</string>
+    <string name="black_widow">Black Widow</string>
+    <string name="hulk">Hulk</string>
+    <string name="shield_app_header">S.H.I.E.L.D. Avenger Locator</string>
+    <string name="shield_logo_description">S.H.I.E.L.D. logo</string>
 </resources>
