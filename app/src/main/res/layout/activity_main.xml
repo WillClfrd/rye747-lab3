@@ -77,42 +77,35 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="@string/captain_america" />
+                android:text="@string/spider_man" />
 
             <Button
                 android:id="@+id/avenger_button_7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="@string/captain_america" />
+                android:text="@string/doctor_strange" />
 
             <Button
                 android:id="@+id/avenger_button_8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="@string/captain_america" />
+                android:text="@string/hawkeye" />
 
             <Button
                 android:id="@+id/avenger_button_9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="@string/captain_america" />
+                android:text="@string/captain_marvel" />
 
             <Button
                 android:id="@+id/avenger_button_10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="@string/captain_america" />
-
-            <Button
-                android:id="@+id/avenger_button_11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/maroon"
-                android:text="@string/captain_america" />
+                android:text="@string/black_panther" />
 
         </LinearLayout>
 
