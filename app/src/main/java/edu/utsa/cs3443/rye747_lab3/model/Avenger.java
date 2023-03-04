@@ -16,7 +16,7 @@ public class Avenger extends Person{
         this.alias = alias;
         this.location = location;
 
-        if(hasPow.equals("t")){
+        if(hasPow.equals("T")){
             this.hasPow = true;
         }
         else{
