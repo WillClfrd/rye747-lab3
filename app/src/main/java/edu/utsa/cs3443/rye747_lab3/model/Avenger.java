@@ -1,10 +1,5 @@
 package edu.utsa.cs3443.rye747_lab3.model;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Scanner;
-
 public class Avenger extends Person{
     private String alias;
     private Boolean hasPow;
@@ -15,13 +10,16 @@ public class Avenger extends Person{
         this.setWeight(weight);
         this.alias = alias;
         this.location = location;
+        this.hasPow = (hasPow.equals("T"));
+    }
 
-        if(hasPow.equals("T")){
-            this.hasPow = true;
-        }
-        else{
-            this.hasPow = false;
-        }
+    public Avenger(){
+        this.setName("No Value");
+        this.setHeight("No Value");
+        this.setWeight("No Value");
+        this.alias = "No Value";
+        this.location = "No Value";
+        this.hasPow = false;
     }
 
     public String getAlias(){

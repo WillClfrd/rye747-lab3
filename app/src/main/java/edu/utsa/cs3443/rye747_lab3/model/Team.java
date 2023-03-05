@@ -2,20 +2,23 @@ package edu.utsa.cs3443.rye747_lab3.model;
 
 import android.content.res.AssetManager;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Team {
-    private ArrayList<Avenger> team = new ArrayList<Avenger>();
+    private ArrayList<Avenger> team;
 
     public void loadAvengers(AssetManager manager) throws FileNotFoundException{
-        String filePath = "Hello";
-        File inFile = new File(filePath);
+        if(team == null){
+            team = new ArrayList<>();
+        }
+        Scanner read;
         try {
-            Scanner read = new Scanner(inFile);
+            InputStream inFile = manager.open("data.csv");
+            read = new Scanner(inFile);
             String line;
             String[] lineTokens;
 
@@ -31,4 +34,25 @@ public class Team {
             throw new RuntimeException(e);
         }
     }
+
+    public Avenger getAvenger(String alias){
+        boolean hasMatch = false;
+        int matchInd = 0;
+        for(int i = 0; i < team.size(); ++i) {
+            if(team.get(i).getAlias().equals(alias)) {
+                matchInd = i;
+                hasMatch = true;
+            }
+        }
+        if(hasMatch){
+            return team.get(matchInd);
+        }
+        else{
+            return (new Avenger());
+        }
+    }
+
+//    public Avenger get(int ind) {
+//        return team.get(ind);
+//    }
 }

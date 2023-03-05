@@ -2,13 +2,14 @@ package edu.utsa.cs3443.rye747_lab3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.widget.Button;
 
 import edu.utsa.cs3443.rye747_lab3.controller.AvengersController;
 
 public class MainActivity extends AppCompatActivity {
-    private AvengersController controller;
+    AvengersController controller;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

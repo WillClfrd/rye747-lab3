@@ -27,7 +27,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingTop="10dp">
 
             <TextView
                 android:id="@+id/textView2"
@@ -42,72 +43,71 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="hello" />
+                android:text="@string/captain_america" />
 
             <Button
                 android:id="@+id/avenger_button_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="hello" />
+                android:text="@string/hulk" />
 
             <Button
                 android:id="@+id/avenger_button_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="hello" />
+                android:text="@string/thor" />
 
             <Button
                 android:id="@+id/avenger_button_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="hello" />
+                android:text="@string/black_widow" />
 
             <Button
                 android:id="@+id/avenger_button_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="hello" />
+                android:text="@string/doctor_strange" />
 
             <Button
                 android:id="@+id/avenger_button_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="hello" />
+                android:text="@string/iron_man" />
 
             <Button
                 android:id="@+id/avenger_button_7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="hello" />
+                android:text="@string/black_panther" />
 
             <Button
                 android:id="@+id/avenger_button_8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="hello" />
+                android:text="@string/hawkeye" />
 
             <Button
                 android:id="@+id/avenger_button_9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="hello" />
+                android:text="@string/spider_man" />
 
             <Button
                 android:id="@+id/avenger_button_10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/maroon"
-                android:text="hello" />
+                android:text="@string/captain_marvel" />
 
         </LinearLayout>
-
     </LinearLayout>
 </ScrollView>
