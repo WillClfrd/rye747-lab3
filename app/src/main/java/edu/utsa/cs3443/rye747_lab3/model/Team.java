@@ -1,7 +1,9 @@
 package edu.utsa.cs3443.rye747_lab3.model;
 
+import android.content.res.AssetFileDescriptor;
 import android.content.res.AssetManager;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,12 +11,13 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Team {
-    private ArrayList<Avenger> team;
+    public ArrayList<Avenger> team;
 
-    public void loadAvengers(AssetManager manager) throws FileNotFoundException{
+    public void loadAvengers(AssetManager manager){
         if(team == null){
             team = new ArrayList<>();
         }
+
         Scanner read;
         try {
             InputStream inFile = manager.open("data.csv");
@@ -51,8 +54,4 @@ public class Team {
             return (new Avenger());
         }
     }
-
-//    public Avenger get(int ind) {
-//        return team.get(ind);
-//    }
 }
