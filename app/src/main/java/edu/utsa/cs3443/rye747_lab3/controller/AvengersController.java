@@ -18,7 +18,7 @@ public class AvengersController implements View.OnClickListener {
     private Team avengers;
 
     /**
-     * The AvengersController constructor instantiates an AvengersController object with the object activity attribute set to the specified value, and the object manager attribute set to the output of the Activity class getAssets() method
+     * The AvengersController constructor instantiates an AvengersController object with the object activity attribute set to the specified value, and the object manager attribute set to the output of the Activity class getAssets method
      *
      * @param activity the specified value to be assigned to the AvengersController class object activity attribute
      */
