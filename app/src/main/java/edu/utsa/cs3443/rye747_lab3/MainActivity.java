@@ -8,7 +8,7 @@ import android.widget.Button;
 import edu.utsa.cs3443.rye747_lab3.controller.AvengersController;
 
 public class MainActivity extends AppCompatActivity {
-    AvengersController controller;
+    private AvengersController controller;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
