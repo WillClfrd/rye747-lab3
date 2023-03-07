@@ -1,10 +1,7 @@
 package edu.utsa.cs3443.rye747_lab3.model;
 
-import android.content.res.AssetFileDescriptor;
 import android.content.res.AssetManager;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
